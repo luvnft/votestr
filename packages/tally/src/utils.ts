@@ -36,7 +36,7 @@ const zod_poll = z.object({
 
 export type Poll = z.output<typeof zod_poll>;
 
-const DOMAIN = process.env.DOMAIN || 'tally.votestr.com';
+const DOMAIN = process.env.DOMAIN || 'votestr.vercel.app';
 
 // export const getOrFetchPollData = async (poll_id: string) => {
 //   const poll = (await prisma.getPoll(poll_id)) as Poll;
